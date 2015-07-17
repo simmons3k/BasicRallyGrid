@@ -10,7 +10,7 @@ Ext.define('CustomApp', {
 			model: 'User Story',
 			autoLoad: true,
 			listeners: {
-					load: function(myStore, myData, success) {
+				load: function(myStore, myData, success) {
 					console.log("get data", myStore, myData, success);
 					this._loadGrid(myStore);
 
